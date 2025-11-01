@@ -95,7 +95,7 @@ const contactLinks = {
   socialLinks: [
     {
       title: "Behance",
-      href: "/"
+      href: "https://www.behance.net/47lucas"
     },
     {
       title: "Facebook",

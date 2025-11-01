@@ -26,16 +26,16 @@ const workData = [
         slug: "https://www.behance.net/gallery/185317147/Dino-Itakids-Advertising-Campaign"
     },
     {
-        image: "/images/work/work-img-5.jpg",
-        title: "Mobile App Design",
-        client: "John Honnai",
-        slug: "mobile-app-design"
+        image: "/images/work/bloom.webp",
+        title: "Packaging Design for Bloom",
+        client: "GiaTam Pharma",
+        slug: "https://www.behance.net/gallery/178009781/BLOOM-C-Product-Design"
     },
     {
-        image: "/images/work/work-img-6.jpg",
-        title: "Mug Sticker Designing",
-        client: "John Honnai",
-        slug: "mug-sticker-designing"
+        image: "/images/work/web-design.jpg",
+        title: "Website Design for a Tech Company",
+        client: "Tech Company",
+        slug: "https://www.behance.net/gallery/178009781/BLOOM-C-Product-Design"
     },
     
 ];
