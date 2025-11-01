@@ -21,14 +21,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    
     <html lang="en" suppressHydrationWarning>
-      <SpeedInsights />
       <body className={bricolageGrotesque.className}>
         <Header />
         {children}
         <Footer/>
       </body>
+      <SpeedInsights />
     </html>
   );
 }
