@@ -3,32 +3,32 @@ import React from 'react';
 const ExperienceSec = () => {
     const experiences = [
         {
+            year: "2015",
+            title: "Junior Graphic Designer",
+            company: "AMC Mekong Company",
+            type: "Fulltime",
+            description: "Thiết kế đồ hoạ quang cáo, ấn phẩm, nhận diện thương hiệu, bao bì sản phẩm, giao diện người dùng tai AMC Mekong"
+        },
+        {
             year: "2018",
-            title: "Junior UX Designer",
-            company: "www.startup.com",
+            title: "Senior Designer",
+            company: "PNF JSC",
             type: "Fulltime",
-            description: "Suffered alteration in some form by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum"
+            description: "Vận hành và phát triển nhận diện thương hiệu và các ấn phẩm quảng cáo, lập chiến lược truyền thông thị trường, quản lý đội nhóm thiết kế tại PNF JSC"
         },
         {
-            year: "2019",
-            title: "Senior UX Designer",
-            company: "www.googly.com",
+            year: "2021",
+            title: "Senior Designer",
+            company: "GiaTam Pharma, PNF JSC, Tay Do JSC, Meko Trading, ",
             type: "Remote",
-            description: "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem"
+            description: "Vận hành và phát triển nhận diện thương hiệu, phát triển các ấn phẩm quảng cáo, lập chiến lược truyền thông thị trường, quản lý đội nhóm thiết kế"
         },
         {
-            year: "2020-2022",
-            title: "Team Lead Designer",
-            company: "www.company.com",
-            type: "Fulltime",
-            description: "Handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated"
-        },
-        {
-            year: "2023+",
-            title: "Team Lead Designer",
-            company: "www.latest.com",
-            type: "Fulltime",
-            description: "Release of Letraset sheets containing Lorem Ipsum passages and more recently with desktop publishing software"
+            year: "2022+",
+            title: "Freelance Designer",
+            company: "Self-Employed",
+            type: "Freelancer",
+            description: "Cung cấp các dịch vụ thiết kế đồ hoạ đa dạng bao gồm nhận diện thương hiệu, đồ hoạ quảng cáo, ấn phẩm, 3D và giao diện người dùng cho các khách hàng cá nhân và doanh nghiệp."
         }
     ];
 
@@ -37,7 +37,7 @@ const ExperienceSec = () => {
             <div className="py-16 md:py-32">
                 <div className="container mx-auto px-4">
                     <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
-                        <h2>Experience</h2>
+                        <h2>Kinh nghiệm</h2>
                         <p className="text-xl text-primary">( 02 )</p>
                     </div>
 

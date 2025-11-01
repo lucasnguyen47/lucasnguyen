@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const index = () => {
     return (
@@ -16,14 +17,16 @@ const index = () => {
                             <h1>Designer</h1>
                         </div>
                         <p className="text-secondary font-normal max-w-md xl:max-w-xl">Tôi là Hoà, một nhà thiết kế đồ hoạ với 10 năm kinh nghiệm, tôi thiết kế đa dạng các sản phẩm từ nhận diện thương hiệu, đồ hoạ quảng cáo, ấn phẩm, 3D và giao diện người dùng</p>
-                    <button
+                
                            
-                            className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group"
-                        >
-                            <span className="relative z-10 text-xl font-medium text-black group-hover:text-white transition-colors duration-300">
+                            
+                         <Link href={"https://lucasnguyen.vercel.app/"}>
+                        <button className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group">
+                        <span className="relative z-10 text-sm font-medium text-black group-hover:text-white transition-colors duration-300 sm:text-xl">
                                 Xem bảng giá dịch vụ
-                            </span>
-                        </button>
+                            </span></button></Link>
+                            
+
                     
                     </div>
                     <Image src={"/images/home/banner/banner-img.png"} alt="banner-img" width={685} height={650} className="block lg:hidden" />

@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image"
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 const EducationSkills = () => {
     const [educationData, setEductionData] = useState<any>(null);
@@ -27,10 +28,10 @@ const EducationSkills = () => {
                     <Image src={"/images/home/education-skill/edu-skill-vector.svg"} alt="vector" width={260} height={170} className="no-print absolute top-0 left-0 transform -translate-y-1/2" />
                     <div className="relative z-10 py-16 md:py-32">
                         <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 xl:mb-16">
-                            <h2>Education & Skills</h2>
+                            <h2>Kiến thức & Kỹ năng</h2>
                             <p className="text-xl text-orange-500">( 03 )</p>
                         </div>
-                        <div className="flex flex-col lg:flex-row items-center gap-10 xl:gap-20">
+                        <div className="flex flex-col lg:flex-row items-start gap-10 xl:gap-20">
                             <div className="w-full lg:max-w-md flex flex-col gap-0 xl:gap-8">
                                 {educationData?.education?.map((value: any, index: any) => {
                                     return (
@@ -38,9 +39,10 @@ const EducationSkills = () => {
                                             <div className="no-print mt-2.5 w-3.5 h-3.5 rounded-full border-1 bg-white flex items-center justify-center border-black">
                                                 <div className="w-1.5 h-1.5 rounded-full bg-black"></div>
                                             </div>
-                                            <div className="flex-1 flex flex-col gap-2">
+                                            <div className="flex-1 flex flex-col gap-4">
                                                 <h5>{value?.title}</h5>
                                                 <p className="font-normal">{value?.description}</p>
+                                                <p>Xem thêm thông tin tại <Link href={"https://www.aptech-worldwide.com/"}><span className="font-bold text-primary hover:opacity-80">đây</span></Link></p>
                                             </div>
                                         </div>
                                     )

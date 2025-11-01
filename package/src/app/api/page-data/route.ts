@@ -45,47 +45,47 @@ const contactBar = {
 const educationData = {
   education: [
     {
-      title: "Lipsum Collage - 2010",
-      description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form Koramangala collage."
+      title: "Tốt nghiệp khoá thiết kế đồ hoạ Quốc tế - APTECH tại Đại Học Cần Thơ 2015",
+      description: "APTECH là chương trình đào tạo chuyên về công nghệ thông tin (CNTT) do Aptech Computer Education – một tập đoàn giáo dục toàn cầu có trụ sở tại Ấn Độ – xây dựng và cấp chứng chỉ."
     },
-    {
-      title: "Master Diploma - 2012",
-      description: "Combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
-    },
-    {
-      title: "Master in User Experience - 2014",
-      description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
-    }
+    // {
+    //   title: "Master Diploma - 2012",
+    //   description: "Combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
+    // },
+    // {
+    //   title: "Master in User Experience - 2014",
+    //   description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
+    // }
   ],
   skills: [
     {
-      name: "Figma",
-      icon: "/images/home/education-skill/figma-icon.svg",
+      name: "Adobe Illustrator",
+      icon: "/images/home/education-skill/adobe_illustrator.svg",
       rating: 5
     },
     {
       name: "Photoshop",
-      icon: "/images/home/education-skill/photoshop-icon.svg",
+      icon: "/images/home/education-skill/adobe_photoshop.svg",
       rating: 5
     },
     {
-      name: "Sketch",
-      icon: "/images/home/education-skill/sketch-icon.svg",
+      name: "After Effect",
+      icon: "/images/home/education-skill/adobe_after_effects.svg",
       rating: 4
     },
     {
-      name: "Adobe XD",
-      icon: "/images/home/education-skill/adobe-icon.svg",
+      name: "Blender",
+      icon: "/images/home/education-skill/blender_icon_512x512.png",
       rating: 4
     },
     {
-      name: "Framer",
-      icon: "/images/home/education-skill/framer-icon.svg",
+      name: "Figma",
+      icon: "/images/home/education-skill/figma.svg",
       rating: 5
     },
     {
-      name: "Invasion",
-      icon: "/images/home/education-skill/invision-icon.svg",
+      name: "VS Code",
+      icon: "/images/home/education-skill/vscode.svg",
       rating: 3
     }
   ]
@@ -94,7 +94,7 @@ const educationData = {
 const contactLinks = {
   socialLinks: [
     {
-      title: "Dribble",
+      title: "Behance",
       href: "/"
     },
     {
@@ -102,20 +102,20 @@ const contactLinks = {
       href: "/"
     },
     {
-      title: "LinkedIn",
+      title: "Zalo",
       href: "/"
     },
   ],
   contactInfo: [
     {
       type: "email",
-      label: "hello@imsruthi.com",
-      link: "mailto:hello@imsruthi.com"
+      label: "lucasnguyen69@proton.me",
+      link: "mailto:lucasnguyen69@proton.me"
     },
     {
       type: "phone",
-      label: "+901 5588 2500",
-      link: "tel:+90155882500"
+      label: "0901 080 160",
+      link: "tel:+84 901 080 160"
     }
   ]
 }

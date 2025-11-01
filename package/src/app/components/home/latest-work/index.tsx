@@ -27,18 +27,18 @@ const LatestWork = () => {
                 <div className="container">
                     <div className="py-16 xl:py-32 ">
                         <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
-                            <h2>Latest Works</h2>
+                            <h2>Các dự án</h2>
                             <p className="text-xl text-orange-500">( 04 )</p>
                         </div>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-6 xl:gap-y-12">
                             {workData?.map((value: any, index: any) => {
                                 return (
                                     <div key={index} className="group flex flex-col gap-3 xl:gap-6">
-                                        <div className="relative">
-                                            <Image src={value?.image} alt="image" width={570} height={414} className="rounded-lg w-full h-full object-cover" />
+                                        <div className="relative h-full">
+                                            <Image src={value?.image} alt="image" width={570} height={414} className="rounded-lg w-full h-full" />
                                             <Link
                                                 href={`${value.slug}`}
-                                                className="absolute top-0 left-0 backdrop-blur-xs bg-primary/15 w-full h-full hidden group-hover:flex rounded-lg"
+                                                className="absolute top-0 left-0 backdrop-blur-md bg-primary/15 w-full h-full opacity-0 group-hover:opacity-100 group-hover:flex transition ease-in rounded-lg"
                                             >
                                                 <span className="flex justify-center items-center p-5 w-full">
                                                     <svg width="65" height="64" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
