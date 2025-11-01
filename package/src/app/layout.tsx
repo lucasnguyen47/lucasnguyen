@@ -25,8 +25,9 @@ export default function RootLayout({
       <body className={bricolageGrotesque.className}>
         <Header />
         {children}
-        <Footer/>
         <SpeedInsights />
+        <Footer/>
+        
       </body>
       
     </html>
