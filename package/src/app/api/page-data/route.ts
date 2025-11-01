@@ -5,21 +5,21 @@ const contactBar = {
   contactItems: [
     {
       type: "email",
-      label: "hello@imsruthi.com",
+      label: "lucasnguyen69@proton.me",
       icon: "/images/icon/mail-icon.svg",
       link: "mailto:hello@imsruthi.com"
     },
     {
       type: "phone",
-      label: "+901 5588 2500",
+      label: "0901 080 160",
       icon: "/images/icon/call-icon.svg",
       link: "tel:+90155882500"
     },
     {
       type: "website",
-      label: "www.mywebsite.com",
+      label: "behance.net/47lucas",
       icon: "/images/icon/web-icon.svg",
-      link: "https://www.mywebsite.com"
+      link: "https://www.behance.net/47lucas"
     }
   ],
   socialItems: [

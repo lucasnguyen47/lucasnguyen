@@ -5,7 +5,7 @@ const workData = [
         image: "/images/work/work-img-1.jpg",
         title: "Mug Sticker Designing",
         client: "John Honnai",
-        slug: "mug-sticker-designing"
+        slug: "https://www.behance.net/gallery/207571557/Lucas-Unlimited-Personal-Website-Project"
     },
     {
         image: "/images/work/work-img-2.jpg",
@@ -36,7 +36,8 @@ const workData = [
         title: "Mug Sticker Designing",
         client: "John Honnai",
         slug: "mug-sticker-designing"
-    }
+    },
+    
 ];
 
 

@@ -12,7 +12,7 @@ const Footer = () => {
                         </div>
                         <div className="flex-grow h-px bg-black" />
                     </div>
-                    <p className="text-secondary">Designed by Wrappixel</p>
+                    <p className="text-secondary">Lucas Nguyen Portfolio &copy;{new Date().getFullYear()}</p>
                 </div>
             </div>
         </footer>

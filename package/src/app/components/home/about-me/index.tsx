@@ -17,7 +17,7 @@ const AboutMe = () => {
                 <div className="relative z-10">
                     <div className="container">
                         <div className="flex items-center justify-between gap-2 border-b border-black pb-7">
-                            <h2>About Me</h2>
+                            <h2>Giới thiệu</h2>
                             <p className="text-xl text-primary">( 01 )</p>
                         </div>
 
@@ -34,19 +34,14 @@ const AboutMe = () => {
 
                             <div className="w-full lg:max-w-2xl flex-1">
                                 <p>
-                                    There are many variations of passages of Lorem Ipsum
-                                    available, but the majority have suffered alteration in some
-                                    form, by injected humour, or randomised words which don't look
-                                    even slightly believable. If you are going to use a passage of
-                                    Lorem Ipsum, you need to be sure there isn't anything
-                                    embarrassing hidden in the middle of text.
+                                    Với tư duy thẩm mỹ tinh tế và sự hiểu biết sâu về nhu cầu thị trường, tôi hướng tới việc tạo ra những thiết kế truyền tải rõ ràng thông điệp thương hiệu và gây ấn tượng mạnh về thị giác. Mỗi dự án là một câu chuyện riêng, nơi tôi kết hợp giữa tính sáng tạo và chiến lược thương hiệu để tạo nên sản phẩm thẩm mỹ, hiệu quả và bền vững.
                                 </p>
 
                                 <div className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray">
                                     {[
-                                        { count: "06", label: "Years of experience" },
-                                        { count: "165+", label: "Happy Clients" },
-                                        { count: "1800+", label: "Project Completed" },
+                                        { count: "10", label: "Năm kinh nghiệm" },
+                                        { count: "200+", label: "Khách hàng hài lòng" },
+                                        { count: "1800+", label: "Dự án đã hoàn thành" },
                                     ].map((item, i) => (
                                         <div key={i}>
                                             <h3>{item.count}</h3>
@@ -63,10 +58,10 @@ const AboutMe = () => {
                                             width={30}
                                             height={30}
                                         />
-                                        <p className="text-base xl:text-xl text-black">Language</p>
+                                        <p className="text-base xl:text-xl text-black">Ngôn ngữ</p>
                                     </div>
                                     <div className="flex flex-wrap justify-center items-center gap-2.5">
-                                        {["English", "Hindi", "Malayalam"].map((lang) => (
+                                        {["Tiếng Việt", "English"].map((lang) => (
                                             <p
                                                 key={lang}
                                                 className="bg-white py-2 md:py-3.5 px-4 md:px-5 w-fit rounded-full text-base xl:text-xl"
