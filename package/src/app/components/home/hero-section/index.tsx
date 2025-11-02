@@ -63,7 +63,7 @@ const index = () => {
           </div>
 
           <Image
-            src={"/images/home/banner/banner-img.png"}
+            src={"/images/home/banner/avt-img.webp"}
             alt="banner-img"
             width={685}
             height={650}
