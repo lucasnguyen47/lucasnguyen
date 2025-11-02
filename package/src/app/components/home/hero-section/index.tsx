@@ -47,7 +47,7 @@ const index = () => {
                 quảng cáo, ấn phẩm, 3D và giao diện người dùng
               </p>
             </motion.div>
-            <Link href={"https://lucasnguyen.vercel.app/"}>
+            <Link href={"https://lucasprice.vercel.app/"}>
               <motion.div
                 initial={{ y: -20, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
