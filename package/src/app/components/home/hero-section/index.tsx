@@ -15,6 +15,7 @@ const index = () => {
                   initial={{ y: -20, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.5 }}
+                  viewport={{ once: true }}
                 >
                   <h1>Lucas Nguyen</h1>
                 </motion.div>
@@ -32,6 +33,7 @@ const index = () => {
                 initial={{ y: -20, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
+                viewport={{ once: true }}
               >
                 <h1>Designer</h1>
               </motion.div>
@@ -40,6 +42,7 @@ const index = () => {
               initial={{ y: -20, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.4 }}
+              viewport={{ once: true }}
             >
               <p className="text-secondary font-normal max-w-md xl:max-w-xl">
                 Tôi là Hoà, một nhà thiết kế đồ hoạ với 10 năm kinh nghiệm, tôi
@@ -52,6 +55,7 @@ const index = () => {
                 initial={{ y: -20, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.6 }}
+                viewport={{ once: true }}
               >
                 <button className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group">
                   <span className="relative z-10 text-sm font-medium text-black group-hover:text-white transition-colors duration-300 sm:text-xl">
@@ -75,6 +79,7 @@ const index = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.5 }}
+        viewport={{ once: true }}
       >
         <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
           <Image
